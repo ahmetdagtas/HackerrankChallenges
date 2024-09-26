@@ -25,4 +25,15 @@ public class Calculations {
         }
         return sum;
     }
+
+    public String getWholeResult(int a, int b, int n) {
+        StringBuilder finalText = new StringBuilder();
+        int sum = 0;
+        for (int i = 0; i < n; i++)
+        {
+            sum += a + getSecondPower(i) * b;
+            finalText.append(String.valueOf(sum) + " ");
+        }
+        return finalText.toString();
+    }
 }
