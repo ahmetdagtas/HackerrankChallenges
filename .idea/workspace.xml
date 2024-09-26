@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa5afd06-a864-4603-9ed5-78e8b9c37ee0" name="Changes" comment="TDD, the class is generated, no method exists">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="aa5afd06-a864-4603-9ed5-78e8b9c37ee0" name="Changes" comment="TDD, the faulty result is generated&#10;test access modifier is changed">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hackerrank/java/JavaLoops2/Calculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hackerrank/java/JavaLoops2/Calculations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hackerrank/java/TestCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hackerrank/java/TestCalculations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727343988657</updated>
-      <workItem from="1727343989834" duration="1111000" />
+      <workItem from="1727343989834" duration="1167000" />
     </task>
     <task id="LOCAL-00001" summary="first commit with test library dependency added">
       <created>1727344729785</created>
@@ -106,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727345033708</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="TDD, the faulty result is generated&#10;test access modifier is changed">
+      <created>1727345126034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1727345126034</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +134,7 @@
     <MESSAGE value="TDD, no method generated" />
     <MESSAGE value="TDD, the class is generated, no method existing" />
     <MESSAGE value="TDD, the class is generated, no method exists" />
-    <option name="LAST_COMMIT_MESSAGE" value="TDD, the class is generated, no method exists" />
+    <MESSAGE value="TDD, the faulty result is generated&#10;test access modifier is changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="TDD, the faulty result is generated&#10;test access modifier is changed" />
   </component>
 </project>
