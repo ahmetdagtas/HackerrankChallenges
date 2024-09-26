@@ -35,9 +35,43 @@ public class TestCalculations {
     @Test
     public void calculateBEquation(){
         int b = 2;
-        int power = 1;
-        int bEquationResult = Calculations.getInstance().getBEquation(b, power);
-
+        int n = 1;
+        int bEquationResult = Calculations.getInstance().getBEquation(b, n);
         Assert.assertEquals(2, bEquationResult);
+
+        b= 2;
+        n = 2;
+        bEquationResult = Calculations.getInstance().getBEquation(b, n);
+        Assert.assertEquals(6, bEquationResult);
+
+        b= 2;
+        n = 3;
+        bEquationResult = Calculations.getInstance().getBEquation(b, n);
+        Assert.assertEquals(14, bEquationResult);
+
+        b= 3;
+        n = 1;
+        bEquationResult = Calculations.getInstance().getBEquation(b, n);
+        Assert.assertEquals(3, bEquationResult);
+
+        b= 3;
+        n = 2;
+        bEquationResult = Calculations.getInstance().getBEquation(b, n);
+        Assert.assertEquals(9, bEquationResult);
+
+        b= 3;
+        n = 3;
+        bEquationResult = Calculations.getInstance().getBEquation(b, n);
+        Assert.assertEquals(21, bEquationResult);
+
+        b= 3;
+        n = 4;
+        bEquationResult = Calculations.getInstance().getBEquation(b, n);
+        Assert.assertEquals(45, bEquationResult);
+
+        b= 3;
+        n = 5;
+        bEquationResult = Calculations.getInstance().getBEquation(b, n);
+        Assert.assertEquals(93, bEquationResult);
     }
 }

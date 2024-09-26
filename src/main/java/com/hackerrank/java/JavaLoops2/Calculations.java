@@ -17,9 +17,9 @@ public class Calculations {
         return (int)Math.pow(2, power);
     }
 
-    public int getBEquation(int b, int power) {
+    public int getBEquation(int b, int n) {
         int sum = 0;
-        for (int i = 0; i < power; i++)
+        for (int i = 0; i < n; i++)
         {
             sum += getSecondPower(i) * b;
         }
