@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa5afd06-a864-4603-9ed5-78e8b9c37ee0" name="Changes" comment="Test passed">
+    <list default="true" id="aa5afd06-a864-4603-9ed5-78e8b9c37ee0" name="Changes" comment="second test is passed">
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hackerrank/java/TestCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hackerrank/java/TestCalculations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727343988657</updated>
-      <workItem from="1727343989834" duration="1235000" />
+      <workItem from="1727343989834" duration="1543000" />
     </task>
     <task id="LOCAL-00001" summary="first commit with test library dependency added">
       <created>1727344729785</created>
@@ -118,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727345196157</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="second test is passed">
+      <created>1727345521193</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1727345521193</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +150,7 @@
     <MESSAGE value="TDD, the class is generated, no method exists" />
     <MESSAGE value="TDD, the faulty result is generated&#10;test access modifier is changed" />
     <MESSAGE value="Test passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test passed" />
+    <MESSAGE value="second test is passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="second test is passed" />
   </component>
 </project>

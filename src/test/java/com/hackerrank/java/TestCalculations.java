@@ -14,5 +14,20 @@ public class TestCalculations {
         result = Calculations.getSecondPower(1);
         Assert.assertEquals(result, 2);
 
+        result = Calculations.getSecondPower(2);
+        Assert.assertEquals(result, 4);
+
+        result = Calculations.getSecondPower(3);
+        Assert.assertEquals(result, 8);
+
+        result = Calculations.getSecondPower(4);
+        Assert.assertEquals(result, 16);
+
+        result = Calculations.getSecondPower(5);
+        Assert.assertEquals(result, 32);
+
+        result = Calculations.getSecondPower(6);
+        Assert.assertEquals(result, 64);
+
     }
 }
