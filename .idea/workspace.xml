@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa5afd06-a864-4603-9ed5-78e8b9c37ee0" name="Changes" comment="TDD, first test class &amp; method">
+    <list default="true" id="aa5afd06-a864-4603-9ed5-78e8b9c37ee0" name="Changes" comment="TDD, no method generated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hackerrank/java/JavaLoops2/Calculations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hackerrank/java/TestCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hackerrank/java/TestCalculations.java" afterDir="false" />
     </list>
@@ -52,7 +53,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727343988657</updated>
-      <workItem from="1727343989834" duration="889000" />
+      <workItem from="1727343989834" duration="999000" />
     </task>
     <task id="LOCAL-00001" summary="first commit with test library dependency added">
       <created>1727344729785</created>
@@ -68,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727344761802</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TDD, no method generated">
+      <created>1727344920361</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727344920361</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit with test library dependency added" />
     <MESSAGE value="TDD, first test class &amp; method" />
-    <option name="LAST_COMMIT_MESSAGE" value="TDD, first test class &amp; method" />
+    <MESSAGE value="TDD, no method generated" />
+    <option name="LAST_COMMIT_MESSAGE" value="TDD, no method generated" />
   </component>
 </project>

@@ -1,5 +1,6 @@
 package com.hackerrank.java;
 
+import com.hackerrank.java.JavaLoops2.Calculations;
 import org.junit.Assert;
 import org.junit.Test;
 
