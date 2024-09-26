@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa5afd06-a864-4603-9ed5-78e8b9c37ee0" name="Changes" comment="TDD, no method generated">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hackerrank/java/JavaLoops2/Calculations.java" afterDir="false" />
+    <list default="true" id="aa5afd06-a864-4603-9ed5-78e8b9c37ee0" name="Changes" comment="TDD, the class is generated, no method exists">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hackerrank/java/JavaLoops2/Calculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hackerrank/java/JavaLoops2/Calculations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hackerrank/java/TestCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hackerrank/java/TestCalculations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +45,29 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestCalculations.TestSecondPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HackerrankJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hackerrank.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hackerrank.java" />
+      <option name="MAIN_CLASS_NAME" value="com.hackerrank.java.TestCalculations" />
+      <option name="METHOD_NAME" value="TestSecondPower" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestCalculations.TestSecondPower" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727343988657</updated>
-      <workItem from="1727343989834" duration="999000" />
+      <workItem from="1727343989834" duration="1111000" />
     </task>
     <task id="LOCAL-00001" summary="first commit with test library dependency added">
       <created>1727344729785</created>
@@ -76,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1727344920361</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="TDD, the class is generated, no method exists">
+      <created>1727345033708</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1727345033708</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +127,8 @@
     <MESSAGE value="first commit with test library dependency added" />
     <MESSAGE value="TDD, first test class &amp; method" />
     <MESSAGE value="TDD, no method generated" />
-    <option name="LAST_COMMIT_MESSAGE" value="TDD, no method generated" />
+    <MESSAGE value="TDD, the class is generated, no method existing" />
+    <MESSAGE value="TDD, the class is generated, no method exists" />
+    <option name="LAST_COMMIT_MESSAGE" value="TDD, the class is generated, no method exists" />
   </component>
 </project>
