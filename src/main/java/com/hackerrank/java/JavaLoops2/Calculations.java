@@ -31,8 +31,17 @@ public class Calculations {
         int sum = 0;
         for (int i = 0; i < n; i++)
         {
+            System.out.println("a " + a);
+            System.out.println("getSecondPower(i) " + getSecondPower(i));
+            System.out.println("b " + b);
             sum += a + getSecondPower(i) * b;
-            finalText.append(String.valueOf(sum) + " ");
+            System.out.println("sum = a + getSecondPower(i) * b -> " + sum);
+            finalText.append(sum);
+            if (i != n-1) {
+                finalText.append(" ");
+            }
+
+            System.out.println();
         }
         return finalText.toString();
     }

@@ -81,11 +81,19 @@ public class TestCalculations {
     }
 
     @Test
-    public void calculateAllEquation(){
+    public void calculateFirstEquation(){
         int a = 0;
         int b = 2;
         int n = 10;
         String wholeResult = calculationInstance.getWholeResult(a, b, n);
-        System.out.println(wholeResult);
+        Assert.assertEquals("2 6 14 30 62 126 254 510 1022 2046", wholeResult);
+    }
+    @Test
+    public void calculateSecondEquation(){
+        int a = 5;
+        int b = 3;
+        int n = 5;
+        String wholeResult = calculationInstance.getWholeResult(a, b, n);
+        Assert.assertEquals("8 14 26 50 98", wholeResult);
     }
 }
