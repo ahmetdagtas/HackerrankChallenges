@@ -1,6 +1,7 @@
 package com.hackerrank.java;
 
 import com.hackerrank.java.DataTypes.DataTypes;
+import org.junit.Test;
 
 public class TestDataTypes {
 
@@ -10,5 +11,10 @@ public class TestDataTypes {
         dataTypes = DataTypes.getInstance();
     }
 
+    @Test
+    public void testByte(){
 
+        int testInput = -126;
+        DataTypes.getInstance().whatCanItFit(testInput);
+    }
 }

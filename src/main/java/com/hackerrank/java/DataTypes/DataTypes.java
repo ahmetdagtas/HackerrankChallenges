@@ -14,6 +14,15 @@ public class DataTypes {
     }
 
 
+    public void whatCanItFit(int testInput) {
+        System.out.print(testInput);
+        willItFitByte(testInput);
+    }
 
+    private void willItFitByte(int testInput) {
+        if ((testInput >= -128) && (testInput <= 127)){
+            System.out.println(" can be fitted in:* byte");
+        }
+    }
 
 }
