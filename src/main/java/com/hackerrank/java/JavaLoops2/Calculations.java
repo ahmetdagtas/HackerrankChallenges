@@ -29,19 +29,14 @@ public class Calculations {
     public String getWholeResult(int a, int b, int n) {
         StringBuilder finalText = new StringBuilder();
         int sum = 0;
+        sum += a;
         for (int i = 0; i < n; i++)
         {
-            System.out.println("a " + a);
-            System.out.println("getSecondPower(i) " + getSecondPower(i));
-            System.out.println("b " + b);
-            sum += a + getSecondPower(i) * b;
-            System.out.println("sum = a + getSecondPower(i) * b -> " + sum);
+            sum += getSecondPower(i) * b;
             finalText.append(sum);
             if (i != n-1) {
                 finalText.append(" ");
             }
-
-            System.out.println();
         }
         return finalText.toString();
     }
