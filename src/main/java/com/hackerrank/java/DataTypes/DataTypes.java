@@ -14,14 +14,20 @@ public class DataTypes {
     }
 
 
-    public void whatCanItFit(int testInput) {
+    public void whatCanItFit(long testInput) {
         System.out.print(testInput);
         willItFitByte(testInput);
+        willItFitShort(testInput);
     }
 
-    private void willItFitByte(int testInput) {
-        if ((testInput >= -128) && (testInput <= 127)){
-            System.out.println(" can be fitted in:* byte");
+    private void willItFitByte(long testInput) {
+        if ((testInput >= -Math.pow(2,7)) && (testInput <= Math.pow(2,7)-1)){
+            System.out.println(" can be fitted in:\n* byte");
+        }
+    }
+    private void willItFitShort(long testInput) {
+        if ((testInput >= -Math.pow(2,15)) && (testInput <= Math.pow(2,15)-1)){
+            System.out.println(" can be fitted in:\n* short");
         }
     }
 

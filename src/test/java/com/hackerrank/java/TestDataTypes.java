@@ -14,7 +14,7 @@ public class TestDataTypes {
     @Test
     public void testByte(){
 
-        int testInput = -126;
+        int testInput = 126;
         DataTypes.getInstance().whatCanItFit(testInput);
     }
 }
