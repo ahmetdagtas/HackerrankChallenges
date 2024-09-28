@@ -1,7 +1,9 @@
 package com.hackerrank.java;
 
+import com.hackerrank.java.JavaLoops2.Calculations;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Calculations.getInstance().main();
     }
 }

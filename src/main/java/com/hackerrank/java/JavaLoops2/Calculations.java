@@ -1,5 +1,7 @@
 package com.hackerrank.java.JavaLoops2;
 
+import java.util.Scanner;
+
 public class Calculations {
 
     private static Calculations instance = null;
@@ -39,5 +41,18 @@ public class Calculations {
             }
         }
         return finalText.toString();
+    }
+
+
+    public void main(){
+        Scanner in = new Scanner(System.in);
+        int t=in.nextInt();
+        for(int i=0;i<t;i++){
+            int a = in.nextInt();
+            int b = in.nextInt();
+            int n = in.nextInt();
+            System.out.println(Calculations.getInstance().getWholeResult(a,b,n));
+        }
+        in.close();
     }
 }
