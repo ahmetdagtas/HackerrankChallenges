@@ -16,19 +16,44 @@ public class DataTypes {
 
     public void whatCanItFit(long testInput) {
         System.out.print(testInput);
-        willItFitByte(testInput);
-        willItFitShort(testInput);
+        boolean isFitInPrinted = false;
+        isFitInPrinted = willItFitByte(testInput, isFitInPrinted);
+        isFitInPrinted = willItFitShort(testInput, isFitInPrinted);
+        isFitInPrinted = willItFitInt(testInput, isFitInPrinted);
+
+        if (!isFitInPrinted)
+            System.out.print(" can't be fitted anywhere.");
     }
 
-    private void willItFitByte(long testInput) {
-        if ((testInput >= -Math.pow(2,7)) && (testInput <= Math.pow(2,7)-1)){
-            System.out.println(" can be fitted in:\n* byte");
+    private boolean printFitIn(boolean isFitInPrinted){
+        if (!isFitInPrinted) {
+            System.out.print(" can be fitted in:\n");
         }
+        return true;
     }
-    private void willItFitShort(long testInput) {
-        if ((testInput >= -Math.pow(2,15)) && (testInput <= Math.pow(2,15)-1)){
-            System.out.println(" can be fitted in:\n* short");
+
+    private boolean willItFitByte(long testInput, boolean isFitInPrinted) {
+        if ((testInput >= Byte.MIN_VALUE) && (testInput <= Byte.MAX_VALUE)){
+            isFitInPrinted = printFitIn(isFitInPrinted);
+            System.out.println("* byte");
         }
+        return isFitInPrinted;
     }
+    private boolean willItFitShort(long testInput, boolean isFitInPrinted) {
+        if ((testInput >= Short.MIN_VALUE) && (testInput <= Short.MAX_VALUE)){
+            isFitInPrinted = printFitIn(isFitInPrinted);
+            System.out.println("* short");
+        }
+        return isFitInPrinted;
+    }
+
+    private boolean willItFitInt(long testInput, boolean isFitInPrinted) {
+        if ((testInput >= Integer.MIN_VALUE) && (testInput <= Integer.MAX_VALUE)){
+            isFitInPrinted = printFitIn(isFitInPrinted);
+            System.out.println("* int");
+        }
+        return isFitInPrinted;
+    }
+
 
 }
